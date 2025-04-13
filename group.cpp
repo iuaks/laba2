@@ -20,5 +20,4 @@ std::vector<Student> Group::getStudents() const {
     return students;
 }
 
-// Деструктор
 Group::~Group() {}

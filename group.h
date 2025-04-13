@@ -6,7 +6,6 @@
 #define GROUP_H
 
 #include <vector>
-#include "Student.h"
 
 class Group {
 private:

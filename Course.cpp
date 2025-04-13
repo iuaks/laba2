@@ -8,7 +8,6 @@ Course::Course() : courseName("Undefined"), lecturer("Unknown") {}
 
 Course::Course(std::string name, std::string lect) : courseName(name), lecturer(lect) {}
 
-// Методи
 std::string Course::getCourseName() const {
     return courseName;
 }
@@ -17,5 +16,4 @@ std::string Course::getLecturer() const {
     return lecturer;
 }
 
-// Деструктор
 Course::~Course() {}

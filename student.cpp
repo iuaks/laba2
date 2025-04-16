@@ -38,10 +38,6 @@ int Student::getAge() const { return age; }
 void Student::setStudentID(const std::string& id) { studentID = id; }
 std::string Student::getStudentID() const { return studentID; }
 
-void Student::display() const {
-    std::cout << "Name: " << name << ", Age: " << age << ", ID: " << studentID << std::endl;
-}
-
 void Student::renameSelf(const std::string& newName) {
     this->name = newName;
 }

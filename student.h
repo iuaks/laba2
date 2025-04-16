@@ -5,7 +5,6 @@
 #ifndef STUDENT_H
 #define STUDENT_H
 
-#pragma once
 #include <string>
 #include <iostream>
 
@@ -21,7 +20,7 @@ public:
     Student();
     Student(std::string name, int age, std::string id);
     Student(const Student& other);
-    Student(Student&& other) noexcept;
+   Student(Student&& other) noexcept;
 
     ~Student();
 
